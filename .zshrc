@@ -130,6 +130,8 @@ alias ga='git add .'
 alias gcm='git commit -m '
 alias gp='git push'
 alias gc='git clone '
+alias grh='git reset --hard '
+alias grr='git remote remove '
 
 # Rembg (Remove Background)
 alias rembg='/home/gilang/Tools/rembg/bin/python3 /home/gilang/Tools/rembg/script.py '
