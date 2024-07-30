@@ -1,4 +1,3 @@
-
 # Default Colors
 [colors.primary]
 background = '#10100E'
@@ -28,7 +27,7 @@ white   = '#FFFAFA'
 
 [shell]
 program = "/usr/bin/zsh"
-args = ["-c", "~/.scripts/startup_terminal.sh; exec /bin/zsh"]
+args    = ["-l"]
 
 [window]
 dynamic_padding   = false
@@ -59,8 +58,6 @@ family = "0xProto Nerd Font"
 style  = "Medium"
 
 [cursor.style]
-shape = "Beam"
-blinking = "On"
-
+shape = "Underline"
 
 

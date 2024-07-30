@@ -9,7 +9,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="juanghurtado"
+ZSH_THEME="refined"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -117,7 +117,7 @@ alias start='sudo systemctl start '
 alias stop='sudo systemctl stop '
 
 # Mongodb
-alias mongodb='/home/gilang/Tools/Script/mongodb.sh '
+alias mongodb='~/.scripts/mongodb.sh'
 
 # Package
 alias paccek='yay -Q | grep '
@@ -137,7 +137,7 @@ alias grr='git remote remove '
 alias rembg='/home/gilang/Tools/rembg/bin/python3 /home/gilang/Tools/rembg/script.py '
 
 # XAMPP
-alias lamp='/home/gilang/Tools/Script/lampp.sh '
+alias lamp='~/.scripts/lampp.sh '
 
 
 
